@@ -1,2 +1,2 @@
-cat runtime.txt
-python-2.7.0
+$ cat runtime.txt
+  python-2.7.0
