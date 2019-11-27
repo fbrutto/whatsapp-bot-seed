@@ -2,14 +2,14 @@ $ git push heroku master
 -----> Python app detected
 $ pip freeze > requirements.txt
 $ ls
-my-application		requirements.txt	runtime.txt
+my-application		requirements.txt	
 
 $ ls
 Procfile requirements.txt  web.py
 
 $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton-peep-git
 
-$ git push heroku master
+
 ...
 -----> Pyton app detected
 -----> Installing runtime (pyton-3.7.2)
