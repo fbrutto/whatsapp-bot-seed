@@ -6,7 +6,7 @@ $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton
 $ git push heroku master
 ...
 -----> Pyton app detected
------> Installing runtime (pyton-2.7.10)
+-----> Installing runtime (pyton-2.7.17)
 -----> installing dependencies using peep
         Downloading request==2.7.0 (470K)
         Processing  /tmp/peep- PWtR4d/requests-2.7.0-py2.py3-none-any.whl
