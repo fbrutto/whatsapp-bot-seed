@@ -1,6 +1,5 @@
 -----> Python app detected
-$ pip freeze > requirements.txt
-$ pip install -r requirements.txt
+
 
 $ ls
 my-application		requirements.txt	
