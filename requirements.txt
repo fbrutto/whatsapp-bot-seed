@@ -24,7 +24,7 @@ $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton
 -----> Pyton app detected
 -----> Installing runtime (pyton-2.7.17)
 -----> installing dependencies using peep
-     $ pip install ./downloads/SomePackage-2.2.tar.gz
+     $ pip -r -b install ./downloads/SomePackage-2.2.tar.gz
     Collecting SomePackage
       Downloading SomePackage-2.2.tar.gz
       Saved ./pip_downloads/SomePackage-2.2.tar.gz
