@@ -9,6 +9,9 @@ chardet==1.0.1
 distribute==0.6.24
 gunicorn==0.14.2
 requests==0.11.1
+$ pip hash ./pip_downloads/SomePackage-2.2.tar.gz
+    ./pip_downloads/SomePackage-2.2.tar.gz:
+    --hash=sha256:93e62e05c7ad3da1a233def6731e8285156701e3419a5fe279017c429ec67ce0
 $ ls
 my-application		requirements.txt	
 
@@ -26,9 +29,6 @@ $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton
       Downloading SomePackage-2.2.tar.gz
       Saved ./pip_downloads/SomePackage-2.2.tar.gz
     Successfully downloaded SomePackage
-$ pip hash ./pip_downloads/SomePackage-2.2.tar.gz
-    ./pip_downloads/SomePackage-2.2.tar.gz:
-    --hash=sha256:93e62e05c7ad3da1a233def6731e8285156701e3419a5fe279017c429ec67ce0
        Downloading request==2.7.0 (470K)
         Processing  /tmp/peep- PWtR4d/requests-2.7.0-py2.py3-none-any.whl
         installing collected packages:  requests
