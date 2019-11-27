@@ -1,4 +1,3 @@
-$ git push heroku master
 -----> Python app detected
 $ pip freeze > requirements.txt
 $ ls
