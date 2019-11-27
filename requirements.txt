@@ -26,8 +26,8 @@ $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton
 -----> installing dependencies using peep
      $ pip -r -b install ./downloads/SomePackage-2.2.tar.gz
     Collecting SomePackage
-      Downloading SomePackage-2.2.tar.gz
-      Saved ./pip_downloads/SomePackage-2.2.tar.gz
+      pip install -r -b Downloading SomePackage-2.2.tar.gz
+      pip install -r -b Saved ./pip_downloads/SomePackage-2.2.tar.gz
   
     Successfully downloaded SomePackage
        Downloading request==2.7.0 (470K)
