@@ -2,10 +2,10 @@
 
 
 $ ls
-my-application		requirements.txt	
+my-application  requirements.txtsetup.py	
 
 $ ls
-Procfile requirements.txt  web.py
+Procfile requirements.txt  web.py setup.py
 
 $ heroku create  --buildpack  git://github.com/pmclanahan/heroku-buildpack-pyton-peep-git
 $ git push master
