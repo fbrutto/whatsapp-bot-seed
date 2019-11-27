@@ -1,4 +1,2 @@
 $ python -V
 Python 3.7.2
-$ cat runtime.txt
-python-3.7.2
